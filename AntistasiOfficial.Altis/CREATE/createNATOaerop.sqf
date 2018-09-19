@@ -19,7 +19,7 @@ _support = (server getVariable "prestigeNATO")/100;
 _buildings = nearestObjects [_markerPos, listMilBld, _size*1.5];
 _statics = staticsToSave select {_x distance _markerPos < (_size max 50)};
 
-/* Stef Disable NATO Garrison: it spawn too many units and it's generally too easy to capture bases
+//Duke enabled Garrison cause stef can suck it
 //NATO Garrison
 	//Aircraft
 		if (count _buildings > 1) then {
