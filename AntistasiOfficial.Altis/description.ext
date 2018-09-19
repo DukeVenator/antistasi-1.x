@@ -1,9 +1,9 @@
 #include "defines.hpp"
 #include "dialogs.hpp"
 
-author="Barbolani";
+author="Barbolani taken over by Duke";
 OnLoadName = $STR_MISSION_NAME_EXT;
-OnLoadMission = "Be a Resistance Leader - Be a Hero";
+OnLoadMission = "Be a Resistance Leader - Be a Hero W.I.P";
 loadScreen = "pic.paa";
 
 overviewText = "Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.";
