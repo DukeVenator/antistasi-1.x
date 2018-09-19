@@ -2,7 +2,7 @@ private ["_hr","_resourcesFIA","_tipo","_coste","_marcador","_garrison","_posici
 
 _hr = server getVariable "hr";
 
-if (_hr < 1) exitWith {hint "You lack of HR to make a new recruitment"};
+if (_hr < 1) exitWith {hint "You ran out of HR maybe you should recruit and NOT SHOOT THEM!"};
 
 _resourcesFIA = server getVariable "resourcesFIA";
 
