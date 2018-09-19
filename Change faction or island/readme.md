@@ -1,3 +1,4 @@
+Edit: the 1.8 team doesn't support these atm but if you want feel free to fix and clean!
 Theese are samples and not supported/working
 Don't improvise, it will just waste your time unless you really know what you're doing.
 
