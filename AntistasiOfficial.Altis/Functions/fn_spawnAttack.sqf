@@ -6,7 +6,7 @@ _difficulty = 0;
 
 _possibleTargets = mrkFIA - destroyedCities - controles - colinas - puestosFIA - ["FIA_HQ"];
 _includeCSAT = true;
-cuentaCA = cuentaCA + 600; //experimental
+cuentaCA = cuentaCA + 800; //experimental
 
 diag_log format ["fn_spawnAttack.sqf: initial possible targets %1", _possibleTargets];
 

@@ -67,7 +67,7 @@ if (_involveCSAT) then {
 	_originPosition = getMarkerPos "spawnCSAT";
 	_originPosition set [2,300];
 	_maxCounter = 3;
-	if ((_base == "") OR (_airport == "")) then {_maxCounter = 3}; //Stef 21/01/2018 it was 6 before, no need to send that many CSAT, just increase too much AI spanwed
+	if ((_base == "") OR (_airport == "")) then {_maxCounter = 4}; //Duke increased to 4 to offset time increase
 
 	//Creating CSAT airtransports
 	for "_i" from 1 to _maxCounter do {
@@ -371,7 +371,7 @@ if !(_marker in mrkAAF) then {
 
 [2700] remoteExec ["AS_fnc_increaseAttackTimer",2];
 if (cuentaCA < 0) then {
-	cuentaCA = 600;
+	cuentaCA = 1200;
 };
 
 sleep 30;
@@ -382,4 +382,3 @@ waitUntil {sleep 1; !(spawner getVariable _marker)};
 
 deleteVehicle _spawner;
 deleteGroup _spawnergroup;
-
