@@ -21,7 +21,7 @@ _statics = staticsToSave select {_x distance _markerPos < (_size max 50)};
 
 //Duke enabled Garrison cause stef can suck it
 //NATO Garrison
-	//Aircraft
+/*	//Aircraft
 		if (count _buildings > 1) then {
 			_pos1 = getPos (_buildings select 0);
 			_pos2 = getPos (_buildings select 1);
@@ -62,7 +62,7 @@ _statics = staticsToSave select {_x distance _markerPos < (_size max 50)};
 
 		_counter = _counter + 1;
 	};
-
+	*/
 	//NATO patrols
 	_groupType = [bluTeam, side_blue] call AS_fnc_pickGroup;
 	_group = [_markerPos, side_blue, _groupType] call BIS_Fnc_spawnGroup;
