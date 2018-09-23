@@ -180,7 +180,7 @@ server setVariable ["testMode",false,true];
 staticsToSave = []; publicVariable "staticsToSave";
 staticsData = []; publicVariable "staticsData";
 prestigeOPFOR = 50;//Initial % support for AAF on each city
-prestigeBLUFOR = 0;//Initial % FIA support on each city
+prestigeBLUFOR = 40;//Initial % FIA support on each city
 planesAAFmax = 0;
 helisAAFmax = 0;
 APCAAFmax = 0;

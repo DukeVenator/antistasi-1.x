@@ -58,8 +58,8 @@ if !(_forceAirport == "") then {
 
 if (_involveCSAT) then {
 	_resourcesAAF = server getVariable ["resourcesAAF",0];
-	if (_resourcesAAF > 20000) then {
-		server setVariable ["resourcesAAF",_resourcesAAF - 20000,true];
+	if (_resourcesAAF > 30000) then {
+		server setVariable ["resourcesAAF",_resourcesAAF - 30000,true];
 		[5,0] remoteExec ["prestige",2];
 	} else {
 		[5,0] remoteExec ["prestige",2]
@@ -67,7 +67,7 @@ if (_involveCSAT) then {
 	_originPosition = getMarkerPos "spawnCSAT";
 	_originPosition set [2,300];
 	_maxCounter = 3;
-	if ((_base == "") OR (_airport == "")) then {_maxCounter = 4}; //Duke increased to 4 to offset time increase
+	if ((_base == "") OR (_airport == "")) then {_maxCounter = 3}; //Duke increased to 4 to offset time increase
 
 	//Creating CSAT airtransports
 	for "_i" from 1 to _maxCounter do {
@@ -369,7 +369,7 @@ if !(_marker in mrkAAF) then {
 	};
 };
 
-[2700] remoteExec ["AS_fnc_increaseAttackTimer",2];
+[1000] remoteExec ["AS_fnc_increaseAttackTimer",2];
 if (cuentaCA < 0) then {
 	cuentaCA = 1200;
 };
