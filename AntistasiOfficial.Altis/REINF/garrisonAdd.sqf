@@ -16,7 +16,7 @@ if (_tipo == guer_sol_UN) then
 	_coste = _coste + ([guer_stat_mortar] call vehiclePrice);
 	};
 
-if (_coste > _resourcesFIA) exitWith {hint format ["You do not have enough money for this kind of unit (%1 € needed)",_coste]};
+if (_coste > _resourcesFIA) exitWith {hint format ["You do not have enough money to hire any more cannon fodder (%1 € needed)",_coste]};
 
 _marcador = [markers,posicionGarr] call BIS_fnc_nearestPosition;
 _posicion = getMarkerPos _marcador;
@@ -50,7 +50,7 @@ if (spawner getVariable _marcador) then
 			sleep 1;
 			closeMarkersUpdating = closeMarkersUpdating - 1;
 			};
-		waitUntil {getMarkerPos _marcador distance [0,0,0] > 10};
+		waitUntil {getMarkerPos _marcador distance [0,0,0] > 4};
 		closeMarkersUpdating = 0;
 		};
 	if (_forzado) then {forcedSpawn pushBackUnique _marcador; publicVariable "forcedSpawn"};

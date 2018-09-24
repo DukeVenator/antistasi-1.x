@@ -34,7 +34,7 @@ switch (_type) do {
 							player setUnitTrait ["camouflageCoef",1.2];
 							player setUnitTrait ["audibleCoef",1.2];
 							player setUnitTrait ["loadCoef",0.6];
-							_text = "Ammo bearer role.\n\nAmmo bearers have a great strenght but are easy to spot and easy to hear."};
+							_text = "Ammo bearer role.\n\nAmmo bearers have a great strength but are easy to spot and easy to hear."};
 
 	case guer_sol_MRK:  {	player setVariable ["class", "marksman"];
 							player setUnitTrait ["camouflageCoef",0.8];

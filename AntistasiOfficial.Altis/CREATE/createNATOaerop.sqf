@@ -137,7 +137,6 @@ _statics = staticsToSave select {_x distance _markerPos < (_size max 50)};
 				};
 			};
 		};
-*/
 
 //Create groups for FIA garrison
 	_gunnerGroup = createGroup side_blue;

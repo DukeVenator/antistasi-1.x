@@ -105,7 +105,7 @@ cfgInf = (configfile >> "CfgGroups" >> "West" >> "rhs_faction_usmc_wd" >> "rhs_g
 
 // Standard group arrays, used for spawning groups -- can use full config paths, config group names, arrays of individual soldiers
 infPatrol = 		["rhs_group_nato_usmc_wd_infantry_team","rhs_group_nato_usmc_wd_infantry_team_MG","rhs_group_nato_usmc_wd_infantry_team_support"]; // 2-3 guys, incl sniper teams
-infGarrisonSmall = 	["rhs_group_nato_usmc_wd_infantry_team","rhs_group_nato_usmc_wd_infantry_team_heavy_AT","rhs_group_nato_usmc_wd_infantry_team_MG"]; // 2-3 guys, to guard towns
+infGarrisonSmall = 	["rhs_group_nato_usmc_wd_infantry_team","rhs_group_nato_usmc_wd_infantry_team","rhs_group_nato_usmc_wd_infantry_team_MG"]; // 2-3 guys, to guard towns
 infTeamATAA =		["rhs_group_nato_usmc_wd_infantry_team_heavy_AT","rhs_group_nato_usmc_wd_infantry_team_AA"]; // missile teams, 4+ guys, for roadblocks and watchposts
 infTeam = 			["rhs_group_nato_usmc_wd_infantry_team_MG","rhs_group_nato_usmc_wd_infantry_team","rhs_group_nato_usmc_wd_infantry_team_heavy_AT","rhs_group_nato_usmc_wd_infantry_team_AA",
 					"rhs_group_nato_usmc_wd_infantry_team_support"]; // teams, 4+ guys

@@ -57,6 +57,18 @@ bluFlag = 	"Flag_CSAT_F";
 
 bluCfgInf = (configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry");
 
+//Vehicles to buy
+	blubuyTruck =			"B_Truck_01_covered_F";
+	blubuyAPC = 			"B_APC_Tracked_01_rcws_F";
+	blubuyMRAP = 			"B_MRAP_01_hmg_F";
+
+//Airfield vehicle (max1)
+	blubuyHeli = 			"B_Heli_Light_01_F";
+//Seaport vehicle
+	blubuyBoat = 			"B_Boat_Armed_01_minigun_F";
+//Special vehicle to buy (max 1)
+
+	blubuylist = [blubuyBoat,blubuyHeli,blubuyMRAP,blubuyAPC,blubuyTruck];
 
 bluRifle = [
 	"arifle_Katiba_C_F",
