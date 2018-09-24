@@ -27,10 +27,10 @@ mrkAntenas = [];
 bancos = [];
 posbancos = [];
 supplySaveArray = [];
-safeDistance_undercover = 350;
-safeDistance_garage = 400;
-safeDistance_recruit = 400;
-safeDistance_garrison = 400;
+safeDistance_undercover = 250;
+safeDistance_garage = 200;
+safeDistance_recruit = 200;
+safeDistance_garrison = 200;
 safeDistance_fasttravel = 300;
 
 // Blacklist of locations not be used as towns

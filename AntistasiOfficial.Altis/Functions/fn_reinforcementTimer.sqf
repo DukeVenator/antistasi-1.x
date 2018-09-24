@@ -1,7 +1,7 @@
 params ["_marker"];
 private ["_base", "_endTime"];
 
-#define TIMER 30
+#define TIMER 40
 
 if (_marker in mrkFIA) exitWith {diag_log format ["Reinforcement Timer: invalid zone: %1", _marker]};
 if !(_marker in reducedGarrisons) exitWith {diag_log format ["Reinforcement Timer: zone fully garrisoned: %1", _marker]};
