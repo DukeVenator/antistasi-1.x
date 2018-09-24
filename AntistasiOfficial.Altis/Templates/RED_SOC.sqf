@@ -20,7 +20,8 @@ opCASFW = 			["rhsusf_f22"]; // To-199 Neophron (CAS)
 opUAVsmall = 		"B_UAV_01_F"; // Tayran AR-2
 
 // air force
-opAir = 			["RHS_UH60M","RHS_CH_47F","RHS_AH64D_wd","RHS_MELB_MH6M","rhsusf_f22"];
+opAir = 			["RHS_UH60M","RHS_CH_47F","RHS_AH64D_wd","RHS_MELB_MH6M"];
+dogfight = 			["rhsusf_f22"];
 
 // self-propelled anti air
 opSPAA = 			"RHS_M6_wd";

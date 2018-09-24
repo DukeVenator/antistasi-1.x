@@ -1,3 +1,4 @@
+//Blu USAF vehicles
 bluHeliTrans = 		["RHS_Mi24Vt_vvsc","rhs_ka60_grey","RHS_Mi8mt_vdv"];
 bluHeliTS = 		["RHS_Mi24Vt_vvsc"];
 bluHeliDis = 		["RHS_Mi8mt_vdv"];
@@ -5,6 +6,7 @@ bluHeliRope = 		["RHS_Mi24Vt_vvsc","rhs_ka60_grey"];
 bluHeliArmed = 		["RHS_Mi24P_vvsc","RHS_Mi24P_CAS_vvsc"];
 bluHeliGunship = 	["rhsgref_mi24g_UPK23","rhsgref_mi24g_FAB","rhs_mi28n_s13_vvsc"];
 bluCASFW = 			["RHS_Su25SM_vvs"];
+bluTSairdrop =		["B_T_VTOL_01_vehicle_F"];
 
 bluAS = 			["RHS_T50_vvs_generic"];
 bluC130 = 			["RHS_C130J"];
@@ -42,7 +44,6 @@ bluGunner = "rhs_vdv_rifleman_lite";
 
 bluMRAPHMGgroup = 	["rhs_vmf_recon_sergeant","rhs_vmf_recon_medic","rhs_vmf_recon_arifleman_scout"];
 bluMRAPgroup = 		["rhs_vmf_recon_sergeant","rhs_vmf_recon_marksman","rhs_vmf_recon_arifleman_scout"];
-
 bluAirCav = 	["rhs_vmf_recon_rifleman_l","rhs_vmf_recon_marksman","rhs_vmf_recon_arifleman_scout","rhs_vmf_recon_sergeant","rhs_vmf_recon_rifleman_scout","rhs_vmf_recon_medic"];
 
 bluSquad = 			["rhs_group_rus_vdv_infantry_squad"]; // 12
@@ -57,6 +58,19 @@ bluFlag = 	"rhs_Flag_Russia_F";
 
 bluCfgInf = (configfile >> "CfgGroups" >> "East" >> "rhs_faction_vdv" >> "rhs_group_rus_vdv_infantry");
 
+//Vehicles to buy
+	blubuyTruck =			"rhsusf_M1078A1P2_B_M2_D_fmtv_usarmy";
+	blubuyAPC = 			"rhsusf_m113d_usarmy";
+	blubuyMRAP = 			"rhsusf_rg33_m2_usmc_d";
+
+//Airfield vehicle (max1)
+	blubuyHeli = 			"RHS_MELB_MH6M";
+//Seaport vehicle
+	blubuyBoat = 			"rhsusf_mkvsoc";
+//Special vehicle to buy (max 1)
+	blubuyHumvee = 			"rhsusf_m1025_d_m2";
+
+	blubuylist = [blubuyBoat,blubuyHeli,blubuyMRAP,blubuyAPC,blubuyTruck,blubuyHumvee];
 
 bluRifle = [
 	"rhs_weap_ak74mr",
