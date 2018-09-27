@@ -4,40 +4,40 @@ guer_marker_colour = "ColorGUER";
 guer_marker_type = "flag_FIA";
 guer_flag_texture = "\A3\Data_F\Flags\Flag_FIA_CO.paa";
 
-guer_rem_des = "B_Static_Designator_01_F";
+guer_rem_des = "O_Static_Designator_02_F";
 
-guer_veh_truck = "B_G_Van_01_transport_F"; // default transport for squads
-guer_veh_engineer = "B_G_Offroad_01_repair_F";
-guer_veh_technical = "B_G_Offroad_01_armed_F";
-guer_veh_quad = "B_G_Quadbike_01_F"; // default transport for snipers
-guer_veh_offroad = "B_G_Offroad_01_F"; // default transport for teams
+guer_veh_truck = "I_G_Van_01_transport_F"; // default transport for squads
+guer_veh_engineer = "I_G_Offroad_01_repair_F";
+guer_veh_technical = "I_G_Offroad_01_armed_F";
+guer_veh_quad = "I_G_Quadbike_01_F"; // default transport for snipers
+guer_veh_offroad = "I_G_Offroad_01_F"; // default transport for teams
 guer_veh_dinghy = "C_Boat_Civil_01_F";
 
-guer_sol_AA = "B_G_Soldier_lite_F"; // AA trooper in player groups
-guer_sol_AM = "B_G_Soldier_A_F"; // playable, player-only
-guer_sol_AR = "B_G_Soldier_AR_F"; // playable
-guer_sol_ENG = "B_G_engineer_F"; // playable
-guer_sol_EXP = "B_G_Soldier_exp_F"; //
-guer_sol_GL = "B_G_Soldier_GL_F"; //
-guer_sol_LAT = "B_G_Soldier_LAT_F"; // playable
-guer_sol_MED = "B_G_medic_F"; // playable
-guer_sol_MRK = "B_G_Soldier_M_F"; // playable
-guer_sol_OFF = "B_G_officer_F"; // playable, Petros
-guer_sol_R_L = "B_G_Soldier_lite_F"; // driver/crew
-guer_sol_RFL = "B_G_Soldier_F"; // playable
-guer_sol_SL = "B_G_Soldier_SL_F"; //
-guer_sol_SN = "B_G_Sharpshooter_F"; //
-guer_sol_TL = "B_G_Soldier_TL_F"; // playable, player-only
-guer_sol_UN = "B_G_Soldier_unarmed_F"; // mortar gunner
+guer_sol_AA = "I_G_Soldier_lite_F"; // AA trooper in player groups
+guer_sol_AM = "I_G_Soldier_A_F"; // playable, player-only
+guer_sol_AR = "I_G_Soldier_AR_F"; // playable
+guer_sol_ENG = "I_G_engineer_F"; // playable
+guer_sol_EXP = "I_G_Soldier_exp_F"; //
+guer_sol_GL = "I_G_Soldier_GL_F"; //
+guer_sol_LAT = "I_G_Soldier_LAT_F"; // playable
+guer_sol_MED = "I_G_medic_F"; // playable
+guer_sol_MRK = "I_G_Soldier_M_F"; // playable
+guer_sol_OFF = "I_G_officer_F"; // playable, Petros
+guer_sol_R_L = "I_G_Soldier_lite_F"; // driver/crew
+guer_sol_RFL = "I_G_Soldier_F"; // playable
+guer_sol_SL = "I_G_Soldier_SL_F"; //
+guer_sol_SN = "I_G_Sharpshooter_F"; //
+guer_sol_TL = "I_G_Soldier_TL_F"; // playable, player-only
+guer_sol_UN = "I_G_Soldier_unarmed_F"; // mortar gunner
 
-guer_POW = "B_G_Survivor_F"; //
+guer_POW = "I_G_Survivor_F"; //
 
-guer_stat_mortar = "B_G_Mortar_01_F";
-guer_stat_MGH = "B_HMG_01_high_F";
-guer_stat_AT = "B_static_AT_F";
-guer_stat_AA = "B_static_AA_F";
+guer_stat_mortar = "I_G_Mortar_01_F";
+guer_stat_MGH = "I_HMG_01_high_F";
+guer_stat_AT = "I_static_AT_F";
+guer_stat_AA = "I_static_AA_F";
 
-guer_cfg_inf = (configfile >> "CfgGroups" >> "West" >> "Guerilla" >> "Infantry");
+guer_cfg_inf = (configfile >> "CfgGroups" >> "independent" >> "Guerilla" >> "Infantry");
 
 guer_grp_sniper = "IRG_SniperTeam_M";
 guer_grp_sentry = "IRG_InfSentry";
@@ -81,13 +81,13 @@ if (worldname == "Tanoa") then {
 		"C_Van_01_transport_F",
 		"C_Heli_Light_01_civil_F",
 		"O_LSV_02_unarmed_F",
-		"B_G_Offroad_01_F",
-		"B_G_Van_01_transport_F",
-		"B_G_Offroad_01_armed_F",
+		"I_G_Offroad_01_F",
+		"I_G_Van_01_transport_F",
+		"I_G_Offroad_01_armed_F",
 		"B_HMG_01_high_F",
-		"B_G_Mortar_01_F",
-		"B_static_AT_F",
-		"B_static_AA_F",
+		"I_G_Mortar_01_F",
+		"I_static_AT_F",
+		"I_static_AA_F",
 		"C_Quadbike_01_F"
 	];
 };
@@ -96,11 +96,11 @@ if (worldname == "Tanoa") then {
 	guer_gear_vestMedic = "";
 	guer_gear_vestEngineer = "";
 
-	guer_gear_AT = "launch_I_Titan_short_F";
+	guer_gear_AT = "launch_B_Titan_short_F";
 	guer_gear_LAT = "launch_NLAW_F";
-	guer_gear_AA = "launch_I_Titan_F";
-	guer_gear_SNPR = "srifle_GM6_F";
-	guer_gear_SNPR_camo = "srifle_GM6_SOS_F";
+	guer_gear_AA = "launch_B_Titan_F";
+	guer_gear_SNPR = "srifle_LRR_F";
+	guer_gear_SNPR_camo = "srifle_LRR_F";
 	guer_gear_GL = "arifle_TRG21_GL_F";
 	guer_gear_LMG = "LMG_Mk200_F";
 	guer_gear_Carbine = "arifle_Mk20C_F";
@@ -125,11 +125,11 @@ if (worldname == "Tanoa") then {
 	vfs = [
 		"C_Offroad_01_F",
 		"C_Van_01_transport_F",
-		"RHS_Mi8amt_civilian",
+		"C_IDAP_Heli_Transport_02_F", // Idap heli EH302
 		"rhs_uaz_open_MSV_01",
-		"B_G_Offroad_01_F",
+		"I_G_Offroad_01_F",
 		"rhs_gaz66o_msv",
-		"B_G_Offroad_01_armed_F",
+		"I_G_Offroad_01_armed_F",
 		"rhs_DSHKM_ins",
 		"rhs_2b14_82mm_msv",
 		"rhs_Kornet_9M133_2_vdv",

@@ -67,7 +67,7 @@ infList_pilots = 	[sol_HPIL, sol_HPIL2, sol_PIL];
 
 // Vehicles
 vehTrucks = 		["rhsusf_M1078A1P2_B_wd_fmtv_usarmy","rhsusf_M1078A1P2_B_wd_open_fmtv_usarmy","rhsusf_M1078A1P2_B_wd_fmtv_usarmy"]; // trucks that spawn at outposts, etc
-vehPatrol =			["rhsusf_rg33_m2_usmc_wd","RHS_UH1Y_GS","rhsusf_m1025_w_s_Mk19"]; // vehicles used for road patrols;
+vehPatrol =			["rhsusf_rg33_m2_usmc_wd","RHS_UH1Y_GS","rhsusf_m1025_w_s_m2"]; // vehicles used for road patrols;
 vehAPC = 			["rhsusf_M1232_MK19_usarmy_wd","rhsusf_M1232_M2_usarmy_wd"]; // APCs
 vehIFV = 			["RHS_M2A2_wd","RHS_M2A2_wd","RHS_M2A3_BUSKI_wd","RHS_M2A2_wd"]; // IFVs
 vehTank = 			["rhsusf_m1a1fep_wd","rhsusf_m1a1fep_od"]; // MBTs
@@ -182,16 +182,11 @@ genAmmo = [
 ];
 
 genLaunchers = [
-	"rhs_weap_M136_hedp",
-	"rhs_weap_fim92",
-	"rhs_weap_smaw_gr_optic"
+	"rhs_weap_M136_hedp"
 ];
 
 genMissiles = [
-	"rhs_m136_hedp_mag",
-	"rhs_mag_smaw_HEAA",
-	"rhs_mag_smaw_SR",
-	"rhs_fim92_mag"
+	"rhs_m136_hedp_mag"
 ];
 
 genMines = [
@@ -456,7 +451,7 @@ side_green = 	west;
 lrRadio = "tf_anprc155_coyote";
 
 // Define the civilian helicopter that allows you to go undercover
-civHeli = "RHS_Mi8amt_civilian";
+civHeli = "C_IDAP_Heli_Transport_02_F";
 
 // Define the ammo crate to be spawned at camps
 campCrate = "Box_NATO_Equip_F";

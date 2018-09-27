@@ -2,7 +2,7 @@ activeACE = !isNil "ace_common_fnc_isModLoaded";
 activeACEhearing = false;
 activeACEMedical = false;
 if (activeACE) then {
-	{unlockedItems pushBack _x} foreach ["ACE_EarPlugs","ACE_RangeCard","ACE_Clacker","ACE_M26_Clacker","ACE_DeadManSwitch","ACE_DefusalKit","ACE_MapTools","ACE_Flashlight_MX991","ACE_Sandbag_empty","ACE_wirecutter","ACE_RangeTable_82mm","ACE_EntrenchingTool","ACE_Cellphone","ACE_CableTie","ACE_SpottingScope","ACE_Tripod","ACE_Chemlight_HiWhite","ACE_Chemlight_HiRed"];
+	{unlockedItems pushBack _x} foreach ["ACE_EarPlugs","ACE_RangeCard","ACE_Clacker","ACE_M26_Clacker","ACE_DeadManSwitch","ACE_DefusalKit","ACE_MapTools","ACE_Flashlight_MX991","ACE_Sandbag_empty","ACE_wirecutter","ACE_RangeTable_82mm","ACE_EntrenchingTool","ACE_Cellphone","ACE_CableTie","ACE_SpottingScope","ACE_Tripod","ACE_Chemlight_HiWhite","ACE_Flashlight_XL50","ACE_Chemlight_HiRed"];
 	unlockedBackpacks pushBackUnique "ACE_TacticalLadder_Pack";
 	//unlockedBackpacks pushBackUnique "ACE_gunbag_Tan"; gunbag will make your rifle disappear when interact with arsenal, too risky to add.
 	//unlockedBackpacks pushBackUnique "ACE_gunbag";
