@@ -250,6 +250,8 @@ if !(isMultiplayer) then {
 [player] execVM "OrgPlayers\unitTraits.sqf";
 [player] spawn rankCheck;
 [player] spawn localSupport;
+[player] execVM "Scripts\RadioJammerInit.sqf";
+[player] execVM "Scripts\HillClimber.sqf";
 
 //Sparker's WarStatistics and roadblock spawning script. Remove these lines if you don't need it:
 //(from here)//
