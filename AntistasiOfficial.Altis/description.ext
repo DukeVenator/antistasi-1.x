@@ -54,6 +54,18 @@ maxplayers=52;
 
 class CfgSounds
 {
+    class jammer_loop
+  {
+        name = "jammer_loop";
+        sound[] = {"\sound\jammer_Effect.ogg", db+2, 1};
+        titles[] = {1,""};
+    };
+    class power_down
+    {
+        name = "power_down";
+        sound[] = {"\sound\power_down.ogg", db+6, 1};
+        titles[] = {1,""};
+    };
     class fire
     {
         name="fire";

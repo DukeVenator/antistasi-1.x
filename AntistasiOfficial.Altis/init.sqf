@@ -3,7 +3,7 @@
 enableSaving [ false, false ];
 
 call AS_fnc_init_hq;
-call compile preprocessFileLineNumbers "scripts\ChairInit.sqf";
+
 if (!isMultiPlayer) then {
     {if ((_x != comandante) and (_x != Petros) and (_x != server) and (_x!=garrison) and (_x != carreteras)) then {_grupete = group _x; deleteVehicle _x; deleteGroup _grupete}} forEach allUnits;
     [] execVM "musica.sqf";
@@ -39,6 +39,7 @@ caja call jn_fnc_arsenal_init;
 
 [] execVM "Scripts\fn_advancedTowingInit.sqf";
 [] execVM "Dialogs\welcome.sqf";
+[] execVM "scripts\ChairInit.sqf";
 
 if(isServer) then {
     _serverHasID = profileNameSpace getVariable ["SS_ServerID",nil];
