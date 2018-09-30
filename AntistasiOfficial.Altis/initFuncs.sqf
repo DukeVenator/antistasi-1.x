@@ -1,7 +1,6 @@
 
 call compile preprocessFileLineNumbers "Compositions\FIA_RB.sqf";
 call compile preprocessFileLineNumbers "scripts\Init_UPSMON.sqf";
-call compile preprocessFileLineNumbers "scripts\ChairInit.sqf";
 call compile preprocessFileLineNumbers "Lists\gearList.sqf";
 
 minefieldAAF = compile preProcessFileLineNumbers "CREATE\minefieldAAF.sqf";
