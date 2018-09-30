@@ -4,5 +4,5 @@ MAC_fnc_switchMove = {
     _anim = _this select 1;
 
     _object switchMove _anim;
-
+    
 };
