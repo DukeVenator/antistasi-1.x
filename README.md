@@ -1,4 +1,4 @@
-# Restarted project DEV!
+# PROJECT MOVED TO https://github.com/DukeVenator/A3-AntiStaki for the restarted project
 Yes we are working on this again and fixing / adding features that the people want! atm we are short on devs so feel free to commit and help out. 
 
 ---
